@@ -85,7 +85,7 @@ function update(context){
 		//绘制每个彩球
 		renderBalls(context);
 	}
-	console.log(balls.length)
+	//console.log(balls.length)
 }
 
 //当前时间距离截止时间的秒数
