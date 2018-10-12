@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	
+	<title>canvas制作绚丽时钟动画效果</title>
+	<style>
+		body{
+			margin: 0;
+			padding: 0;
+			overflow-y: hidden;
+		}
+		.wrap{
+			width: 1024px;
+			margin: 0 auto;
+		}
+		#text{
+			position: fixed;
+			left: 10px;
+			top: 0;
+			font-size: 200%;
+			color: #000;
+		}
+	</style>
+</head>
+<body>
+	<div id="text">现在时间: </div>
+	<div class="wrap1">
+		<canvas id="canvas">canvas</canvas>
+	</div>
+	
+	<script src='js/digit.js'></script>
+	<script src='js/script.js'></script>
+</body>
+</html>
